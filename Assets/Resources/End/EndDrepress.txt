@@ -1,0 +1,26 @@
+[async_show]
+為什麼....[w]
+
+[italic]
+我握緊拳頭，卻又將其放下。[w]
+[italic_end]
+
+[char_name,黑影]
+怎麼了?不繼續嗎?[w]
+[hide_char]
+
+就算做了又如何，答案始終就只有一個。[w]
+就算做了又如何？無論如何選擇，答案從未改變...[w]
+也許，我只配得到這樣的結局吧...[w]
+
+[italic]
+我牽起她的手，走向那個我應去往之地。[w]
+[italic_end]
+
+結局圖：水仙花之地[w]
+[hide]
+[reset_button]
+
+[load_scene,Start Menu]
+
+

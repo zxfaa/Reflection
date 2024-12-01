@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4d4a9037c10b247b3f97f44941825b, type: 3}
+  m_Name: EnviromentDialogueData
+  m_EditorClassIdentifier: 
+  dialogues:
+  - dialogueName: "\u5834\u666F1\u4E00\u958B\u59CB\u9032\u5165\u6642\u6240\u8FF0"
+    IsInteration: 0
+    dialogueIndex: 0
+    SaidByPlayer: 0
+    dialogueLines:
+    - "\u54C8\u554A...[w]\u9019\u88E1\u662F\u54EA\u88E1... [w]\u5B78\u6821\u55CE....[w]\u6211\u600E\u9EBC\u7761\u5230\u73FE\u5728\u624D\u8D77\u4F86...\u8981\u8D95\u5FEB\u56DE\u5BB6\u624D\u5C0D....\u4E0D\u7136\u5ABD\u5ABD\u6703\u64D4\u5FC3\u6211\u7684....[w][remove_dialog] "
+  - dialogueName: "\u5834\u666F2\u958B\u59CB\u904A\u6232\u6240\u8FF0"
+    IsInteration: 0
+    dialogueIndex: 1
+    SaidByPlayer: 0
+    dialogueLines:
+    - ".....\u6211\u7761\u8457\u4E86...?[w]\u611F\u89BA\u505A\u4E86\u4E00\u500B\u5F88\u9577\u7684\u5922\u3002[w]\u9019\u5565\u554A?\u6C34\u4ED9\u82B1?\u70BA\u5565\u5728\u6211\u53E3\u888B\u88E1?[w]...\u61C9\u8A72\u8981\u5FEB\u9EDE\u96E2\u958B\u624D\u5C0D...\u534A\u591C\u7684\u5B78\u6821\u8D85\u53EF\u6015....[w][remove_dialog]"
+  - dialogueName: "\u5834\u666F3\u958B\u59CB\u904A\u6232\u6240\u8FF0"
+    IsInteration: 0
+    dialogueIndex: 2
+    SaidByPlayer: 1
+    dialogueLines:
+    - "...\u4E0D\u53EF\u80FD...\u6211\u4E00\u5B9A\u662F\u5728\u4F5C\u5922..[w]\u6211\u4E00\u5B9A\u53EF\u4EE5\u627E\u5230\u96E2\u958B\u9019\u908A\u7684\u65B9\u6CD5....[w][remove_dialog]"

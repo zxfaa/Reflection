@@ -1,0 +1,5 @@
+[char_name,花里]
+妳決定好了嗎?[w]
+[hide_char]
+[async_hide]
+
