@@ -44,6 +44,7 @@
 
 太熱了...現在可是二月啊...我應該貼起來的...[w]
 
+[ui_image,char_bully,char/char_bully,0,-20,default,uiImageFadeIn_300]
 [char_name,珍妮]
 嗨，好久不見~[w]
 [hide_char]
@@ -94,6 +95,8 @@
 「畢竟，誰會和自殘的人做朋友啊？」[w]
 [hide_char]
 
+[remove,char_bully,uiImageFadeOut_300]
+
 [italic]
 她笑著走開，只留下我一個人。[w]
 我不自覺地將外套再次披上，掩蓋那些深深的傷口。[w]
@@ -105,6 +108,7 @@
 [ui_image,bg_classroom_front,bg/bg_classroom_front,0,0,default,uiImageFadeIn_500]
 [remove,bg_black,uiImageFadeOut_300]
 
+[ui_image,char_teacher,char/char_teacher,0,-25,default,uiImageFadeIn_300]
 [async_show]
 [char_name,導師]
 今天是開學的第一天，很高興同學們都沒有遲到。[w]
@@ -130,6 +134,7 @@
 那妳去坐最後面吧，那邊剛好有空位。[w]
 [hide_char]
 
+[remove,char_teacher,uiImageFadeOut_300]
 
 「空位?」[w]
 「我的後面?」[w]
@@ -156,6 +161,8 @@
 
 [ui_image,bg_black,bg/bg_black,0,0,default,uiImageFadeIn_500]
 [remove,bg_classroom_front,uiImageFadeOut_100]
+[remove,char_transfer,uiImageFadeOut_300]
+
 [ui_image,bg_classroom_front,bg/bg_classroom_front,0,0,default,uiImageFadeIn_500]
 [remove,bg_black,uiImageFadeOut_300]
 
@@ -165,6 +172,9 @@
 某天，在教室。[w]
 我正看向窗外發呆時。[w]
 [italic_end]
+
+
+[ui_image,char_transfer,char/char_transfer,0,-10,default,uiImageFadeIn_300]
 
 [char_name,安染]
 不好意思，請問...?[w]
@@ -229,6 +239,7 @@
 以前的我肯定會想個爛理由回絕。[w]
 但這次，我卻又想要嘗試那個可能性。[w]
 
+[remove,char_transfer,uiImageFadeOut_300]
 
 .[r][wait,500]
 ..[r][wait,500]
@@ -245,6 +256,7 @@
 
 [async_show]
 
+[ui_image,char_transfer,char/char_transfer,0,-10,default,uiImageFadeIn_300]
 [char_name,安染]
 所以那個老師真的很兇嗎，還好這禮拜還沒有遇過她....[w]
 [hide_char]
@@ -293,6 +305,8 @@
 代表著自戀，為了心中的完美，蒙蔽了雙眼。[w]
 [hide_char]
 
+[remove,char_transfer,uiImageFadeOut_300]
+
 [italic]
 我好像在哪裡有聽過這句話。[w]
 有種似曾相似的感覺。[w]
@@ -305,6 +319,8 @@
 [remove,bg_corridor_school,uiImageFadeOut_300]
 
 [async_show]
+
+[ui_image,char_transfer,char/char_transfer,0,-10,default,uiImageFadeIn_300]
 
 [char_name,安染]
 福利社也太大了吧....[w]
@@ -398,6 +414,8 @@
 可是甚麼，就當我送妳的吧，畢竟妳是我在這邊交到的第一個朋友。[w]
 要好好珍惜喔，花里。[w]
 [hide_char]
+
+[remove,char_transfer,uiImageFadeOut_300]
 
 [italic]
 朋友?什麼意思?為什麼要這樣說?[w]

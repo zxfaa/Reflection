@@ -5,7 +5,7 @@
 臨近四月，春意盎然。[w]
 萬物復甦，生機蓬勃。 [w]
 本該是開心的季節，但我卻開心不起來[w]
-臨近期中考，各科老師安排了數不清的小考與報告要面對[w]
+臨近期中考，各科導師安排了數不清的小考與報告要面對[w]
 [italic_end]
 
 又快要遲到了，趕快出門吧。[w]
@@ -20,6 +20,8 @@
 [remove,bg_room,uiImageFadeOut_500]
 
 [async_show]
+
+[ui_image,char_transfer,char/char_transfer,0,-10,default,uiImageFadeIn_300]
 
 [char_name,安染]
 花里妳怎麼又遲到了，再這樣下去會影響到妳的成績的。[w]
@@ -58,6 +60,7 @@
 [char_name,安染]
 妳說對吧?[w]
 [hide_char]
+[remove,char_transfer,uiImageFadeOut_300]
 
 哈哈，對阿。[w]
 
@@ -68,10 +71,12 @@
 [italic]
 (叮咚)[w]
 上課鐘如預期般想起，打斷了談話。[w]
-老師早已準備許久，拿起麥克風道。[w]
+導師早已準備許久，拿起麥克風道。[w]
 [italic_end]
 
-[char_name,安染]
+[ui_image,char_teacher,char/char_teacher,0,-25,default,uiImageFadeIn_300]
+
+[char_name,導師]
 那我們等等就照順序上台報告喔。[w]
 同學們記得報告完要幫上台的同學打分數，以及留下評語，有什麼問題嗎?[w]
 [hide_char]
@@ -80,9 +85,11 @@
 一如既往地安靜，畢竟已經高中了，提出問題更有可能被投以異樣的眼光。[w]
 [italic_end]
 
-[char_name,老師]
+[char_name,導師]
 那我們就開始囉，第一組....[w]
 [hide_char]
+
+[remove,char_teacher,uiImageFadeOut_300]
 
 [italic]
 我再次望向窗邊，水仙早已凋謝。[w]
@@ -91,15 +98,23 @@
 
 不知道下次開是什麼時候....[w]
 
-[char_name,老師]
+[ui_image,char_teacher,char/char_teacher,0,-25,default,uiImageFadeIn_300]
+
+[char_name,導師]
 那第二組可以上台囉![w]
 [hide_char]
 
+[remove,char_teacher,uiImageFadeOut_300]
+
 第二組...第二組?不就是我們嘛，太快了吧。[w]
+
+[ui_image,char_transfer,char/char_transfer,0,-10,default,uiImageFadeIn_300]
 
 [char_name,安染]
 走拉，該輪到我們了，給他們看看妳的曠世巨作![w]
 [hide_char]
+
+[remove,char_transfer,uiImageFadeOut_300]
 
 [italic]
 嘴角泛起微笑，我便走了上去。[w]
@@ -113,6 +128,8 @@
 [remove,bg_classroom_back,uiImageFadeOut_500]
 
 [async_show]
+
+[ui_image,char_transfer,char/char_transfer,0,-10,default,uiImageFadeIn_300]
 
 [char_name,安染]
 妳的簡報真的十分專業欸，妳有空可以教我嗎....?[w]
@@ -134,6 +151,8 @@
 ...我可能會先放棄，耗上一天想想就可怕。[w]
 雖然這樣想，但我卻感到一絲絲的喜悅。[w]
 [italic_end]
+[remove,char_transfer,uiImageFadeOut_300]
+
 .[r][wait,500]
 ..[r][wait,500]
 ...[w]
@@ -151,9 +170,11 @@
 [ui_image,bg_classroom_front,bg/bg_classroom_front,0,0,default,uiImageFadeIn_500]
 [remove,bg_black,uiImageFadeOut_500]
 
-[async_show]
 
-[char_name,老師]
+[ui_image,char_teacher,char/char_teacher,0,-25,default,uiImageFadeIn_300]
+
+[async_show]
+[char_name,導師]
 那我們先來看評語喔，第一組....[w]
 [hide_char]
 
@@ -162,15 +183,15 @@
 或者只是太久沒有被念評語，不習慣而已。[w]
 [italic_end]
 
-[char_name,老師]
-老師也覺得妳們做的不錯，要繼續保持蛤。[w]
+[char_name,導師]
+導師也覺得妳們做的不錯，要繼續保持蛤。[w]
 [hide_char]
 
 [italic]
 真希望只是我多想了。[w]
 [italic_end]
 
-[char_name,老師]
+[char_name,導師]
 第二組的話，欸...有些同學提出了意見。[w]
 報告者可以輪流，以及簡報過於華麗，會影響到觀看感。[w]
 [hide_char]
@@ -179,15 +200,20 @@
 華麗?輪流?[w]
 [italic_end]
 
-[char_name,老師]
-老師的想法是，雖然沒有硬性規定不能一個人講，但輪流講確實會有分工的感覺。[w]
+[char_name,導師]
+導師的想法是，雖然沒有硬性規定不能一個人講，但輪流講確實會有分工的感覺。[w]
 簡報者的部分講的很好，要繼續保持喔。[w]
 至於簡報的部分，雖然很漂亮沒錯，但畢竟我們不是簡報比賽，所以內容會更為重要一點，這點下次要改進。[w]
 [hide_char]
 
+[remove,char_teacher,uiImageFadeOut_300]
+
+
 .[r][wait,500]
 ..[r][wait,500]
 ...[w]
+
+[ui_image,char_transfer,char/char_transfer,0,-10,default,uiImageFadeIn_300]
 
 [char_name,安染]
 沒事啦，我覺得妳做得很好啊，不要被她們影響，下次再改進就好。[w]
@@ -201,6 +227,8 @@
 [char_name,安染]
 ...等妳好一點再跟我說好了，我暫時先不打擾妳。[w]
 [hide_char]
+
+[remove,char_transfer,uiImageFadeOut_300]
 
 [italic]
 我沒有回答，像是做錯事的小孩一樣。[w]
@@ -219,6 +247,8 @@
 [remove,bg_classroom_front,uiImageFadeOut_300]
 
 [async_show]
+
+[ui_image,char_transfer,char/char_transfer,0,-10,default,uiImageFadeIn_300]
 
 [char_name,安染]
 要嘛?感覺對妳我都會有大幫助[w]
@@ -251,10 +281,14 @@
 我架不住她的軟磨硬泡，只好跟著她去。[w]
 [italic_end]
 
+[remove,char_transfer,uiImageFadeOut_300]
+
 [async_hide]
 
 [ui_image,bg_school_dusk,bg/bg_school_dusk,0,0,default,uiImageFadeIn_500]
 [remove,bg_corridor_dusk,uiImageFadeOut_300]
+
+[ui_image,char_transfer,char/char_transfer,0,-10,default,uiImageFadeIn_300]
 
 [async_show]
 
@@ -267,6 +301,8 @@
 [char_name,安染]
 不會啦，妳放心，我會負責教妳的，妳不要看我這樣，我可是很會教人的喔！[w]
 [hide_char]
+
+[remove,char_transfer,uiImageFadeOut_300]
 
 [italic]
 結果出乎意料地順利，剛好剩下的兩個位子被我們包辦。[w]
@@ -281,6 +317,8 @@
 她似乎察覺到了什麼，突然轉過頭，直視著我的眼睛，就像平常一樣。[w]
 但這次，她的眼神裡有著我讀不懂的複雜情緒。[w]
 [italic_end]
+
+[ui_image,char_transfer,char/char_transfer,0,-10,default,uiImageFadeIn_300]
 
 [char_name,安染]
 不論我做什麼事，妳都會相信我嗎？[w]
@@ -309,6 +347,8 @@
 [char_name,安染]
 那再見囉，明天見。[w]
 [hide_char]
+
+[remove,char_transfer,uiImageFadeOut_300]
 
 [italic]
 她轉過身，邁著輕快的步伐離開了。我站在原地，看著她的背影逐漸消失在人群中。[w]

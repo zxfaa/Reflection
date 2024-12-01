@@ -9,6 +9,7 @@
 ..[r][wait,700]
 ...[w]
 
+
 [ui_image,bg_home,bg/bg_home,0,0,default,uiImageFadeIn_500]
 [remove,bg_black,uiImageFadeOut_300]
 [italic]
@@ -274,6 +275,7 @@
 當我走到導師面前，發現她拿著與我手中相似的牛皮紙袋。[w]
 [italic_end]
 
+[ui_image,char_teacher,char/char_teacher,0,-25,default,uiImageFadeIn_300]
 [char_name,導師]
 ...喔？是妳啊。[w]
 [hide_char]
@@ -292,6 +294,8 @@
 我呆滯地把手上的紙袋遞給導師，確定金額無誤後，他捎來另一封沾上灰的信件。
 [italic_end]
 [async_hide]
+[remove,char_teacher,uiImageFadeOut_300]
+
 
 
 [ui_image,bg_corridor,bg/bg_corridor,0,0,default,uiImageFadeIn_500]

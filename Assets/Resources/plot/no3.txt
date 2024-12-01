@@ -275,7 +275,7 @@
 當我走到導師面前，發現她拿著與我手中相似的牛皮紙袋。[w]
 [italic_end]
 
-[ui_image,char_teacher,char/char_teacher,0,-20,default,uiImageFadeIn_300]
+[ui_image,char_teacher,char/char_teacher,0,-25,default,uiImageFadeIn_300]
 [char_name,導師]
 ...喔？是妳啊。[w]
 [hide_char]

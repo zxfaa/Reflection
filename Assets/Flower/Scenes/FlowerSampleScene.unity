@@ -540,7 +540,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54a1ecb89b3c31c4fab5dbc1496251a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: plot/no7
+  index: plot/no5
 --- !u!1 &2100468891
 GameObject:
   m_ObjectHideFlags: 0

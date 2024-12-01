@@ -41,12 +41,13 @@
 
 「可能大家都想逃避現實吧。」[w]
 
-
+[ui_image,char_mom,char/char_mom,0,-25,default,uiImageFadeIn_300]
 [char_name,媽媽]
 姐姐，怎麼了嗎?[w]
 [hide_char]
 
 喔沒事，我只是在想為什麼這個人又出現了而已。[w]
+[remove,char_mom,uiImageFadeOut_300]
 
 [italic]
 我指的是在電視中那位男主角。[w]
@@ -60,6 +61,7 @@
 ...[w]
 為何我還是這麼脆弱。[w]
 
+[ui_image,char_mom,char/char_mom,0,-25,default,uiImageFadeIn_300]
 [char_name,媽媽]
 對了，妳這次在學校有沒有交到很多新朋友啊，好像都沒什麼看妳跟朋友出去玩之類的。[w]
 [hide_char]
@@ -79,16 +81,21 @@
 上次還被我看到妳在畫畫，我不是說過了嗎，書讀好才能去做這些東西。[w]
 妳有聽進去嗎，還不是每次都當成耳邊風。[w]
 [hide_char]
+[remove,char_mom,uiImageFadeOut_300]
 
+[ui_image,char_dad,char/char_dad,-180,-20,default,uiImageFadeIn_300]
 [char_name,爸爸]
 好了拉，她不是都說下次會努力嗎，就下次再看看吧![w]
 [hide_char]
 
+[ui_image,char_mom,char/char_mom,180,-25,default,uiImageFadeIn_300]
 [char_name,媽媽]
 你不要每次都護著她! 她幾歲了，還要這樣嗎?[w]
 都只有我在付出，你們難道不知道我很辛苦嗎?[w]
 一個去考才藝班就算了，另一個成績也不行，以後怎麼拿得出手？[w]
 [hide_char]
+
+[remove,char_mom,uiImageFadeOut_300]
 
 [italic]
 媽媽放下碗筷，逕直朝房間走去。[w]
@@ -104,6 +111,7 @@
 [char_name,爸爸]
 妳也先進房間吧，我去哄哄她就好。[w]
 [hide_char]
+[remove,char_dad,uiImageFadeOut_300]
 
 [italic]
 又變成這樣了[w]

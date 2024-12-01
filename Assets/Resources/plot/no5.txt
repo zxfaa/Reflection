@@ -227,7 +227,7 @@ To 姊姊[w]
 不知道考的好不好，讀到早上根本沒用，超想睡覺的。[w]
 至少今天結束後就可以跟她坦白畫圖的事了，以後也可以專注在學業上。[w]
 
-[ui_image,char_teacher,char/char_teacher,0,-20,default,uiImageFadeIn_300]
+[ui_image,char_teacher,char/char_teacher,0,-25,default,uiImageFadeIn_300]
 
 [char_name,導師]
 同學們，那我要來發還成績了喔，趕快回座位。[w]
@@ -255,7 +255,7 @@ To 姊姊[w]
 [hide_char]
 [remove,char_teacher,uiImageFadeOut_300]
 
-[ui_image,char_bully,char/char_bully,-10,default,uiImageFadeIn_300]
+[ui_image,char_bully,char/char_bully,0,-10,default,uiImageFadeIn_300]
 
 [italic]
 她走上台，途中還轉頭看了我一眼，像是鄙視我一般。[w]
@@ -295,7 +295,7 @@ To 姊姊[w]
 [ui_image,bg_classroom_front,bg/bg_classroom_front,0,0,default,uiImageFadeIn_500]
 [remove,bg_black,uiImageFadeOut_300]
 
-[ui_image,char_teacher,char/char_teacher,-20,default,uiImageFadeIn_300]
+[ui_image,char_teacher,char/char_teacher,0,-25,default,uiImageFadeIn_300]
 
 [async_show]
 [italic]
@@ -319,7 +319,7 @@ To 姊姊[w]
 我接過班導遞出的成績單，正準備要往回走時。[w]
 [italic_end]
 
-[ui_image,char_teacher,char/char_teacher,-20,default,uiImageFadeIn_300]
+[ui_image,char_teacher,char/char_teacher,0,-25,default,uiImageFadeIn_300]
 
 [char_name,導師]
 妳啊，回去要好好複習基礎，其他老師都有跟我說，妳的基礎題錯很多欸。[w]
@@ -374,7 +374,7 @@ To 姊姊[w]
 [italic_end]
 
 [char_name,???]
-「圖畫的不錯喔，以後不要畫比較好。」
+「圖畫的不錯喔，以後不要畫比較好。」[w]
 [hide_char]
 
 [italic]
@@ -383,7 +383,7 @@ To 姊姊[w]
 
 為什麼..為什麼妳會...[w]
 
-[ui_image,char_bully,char/char_bully,-10,default,uiImageFadeIn_300]
+[ui_image,char_bully,char/char_bully,0,-10,default,uiImageFadeIn_300]
 
 [char_name,珍妮]
 沒有阿，我只是剛好看到就是了。[w]
@@ -420,7 +420,7 @@ To 姊姊[w]
 ..[r][wait,700]
 ...[w]
 
-[ui_image,char_friend,char/char_friend,-20,default,uiImageFadeIn_300]
+[ui_image,char_friend,char/char_friend,0,-20,default,uiImageFadeIn_300]
 
 [char_name,詩予]
 我知道了...[w]

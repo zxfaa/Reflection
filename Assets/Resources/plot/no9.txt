@@ -3,10 +3,12 @@
 [ui_image,bg_classroom_front,bg/bg_classroom_front,0,0,default,uiImageFadeIn_100]
 
 我去一下廁所喔。[w]
-
-[char_name,轉學生]
+[ui_image,char_transfer,char/char_transfer,0,-10,default,uiImageFadeIn_300]
+[char_name,安染]
 好啊，要跟妳去嗎。[w]
 [hide_char]
+
+[remove,char_transfer,uiImageFadeOut_300]
 
 不用拉，我自己去就好。[w]
 
@@ -21,7 +23,8 @@
 [remove,bg_classroom_front,uiImageFadeOut_300]
 [async_show]
 
-[char_name,霸凌者]
+[ui_image,char_bully,char/char_bully,0,-10,default,uiImageFadeIn_300]
+[char_name,珍妮]
 跟妳們說喔，我前幾天看到有人說，有髒東西就要用水沖走。[w]
 [hide_char]
 
@@ -29,7 +32,7 @@
 為什麼，為什麼她在這裡。[w]
 [italic_end]
 
-[char_name,霸凌者]
+[char_name,珍妮]
 來喔，我沖給妳們看。[w]
 [hide_char]
 
@@ -38,7 +41,7 @@
 下意識的往外逃，現實卻把我拖了回來。[w]
 [italic_end]
 
-[char_name,霸凌者]
+[char_name,珍妮]
 你們看，髒東西出來了吧![w]
 [hide_char]
 
@@ -46,9 +49,10 @@
 我跌倒在地，地板的汙垢清晰可見。[w]
 [italic_end]
 
-[char_name,霸凌者]
+[char_name,珍妮]
 對不起對不起，我以為這間沒有人才沖水的，妳有沒有怎麼樣。[w]
 [hide_char]
+[remove,char_bully,uiImageFadeOut_300]
 
 [italic]
 她伸出手，我向前走，卻被異物再次絆倒。[w]
@@ -56,7 +60,9 @@
 皮鞋擦得發亮，跟地板格格不入。[w]
 [italic_end]
 
-[char_name,霸凌者]
+[ui_image,char_bully,char/char_bully,0,-10,default,uiImageFadeIn_300]
+
+[char_name,珍妮]
 怎麼樣，好玩嘛。[w]
 沒想到妳居然也會來晚自習阿，上次給妳的教訓還不夠嗎。[w]
 [hide_char]
@@ -65,9 +71,11 @@
 教訓?為什麼要教訓我?[w]
 [italic_end]
 
-[char_name,霸凌者]
+[char_name,珍妮]
 幹嘛，不喜歡說話喔，那妳還是不要說話好了，看了就很不爽。[w]
 [hide_char]
+
+[remove,char_bully,uiImageFadeOut_300]
 
 [italic]
 她抓起我的頭髮，一步一步往馬桶靠近。[w]
@@ -76,7 +84,9 @@
 
 為...什麼...要..這樣...對....我.....[w]
 
-[char_name,霸凌者]
+[ui_image,char_bully,char/char_bully,0,-10,default,uiImageFadeIn_300]
+
+[char_name,珍妮]
 蛤妳說什麼，妳好像有點口吃欸。[w]
 [hide_char]
 
@@ -85,15 +95,17 @@
 視線模糊，只能依稀聽見嘻笑聲。[w]
 [italic_end]
 
-[char_name,霸凌者]
+[char_name,珍妮]
 可以請妳可以再說一次嗎? 妳口吃這麼嚴重可能要聽很多次喔~[w]
 [hide_char]
 
 為.....(咳)[w]
 
-[char_name,霸凌者]
+[char_name,珍妮]
 算了，妳好像沒有想要說話的意思，那就送妳回去囉~[w]
 [hide_char]
+
+[remove,char_bully,uiImageFadeOut_300]
 
 [italic]
 再次沉入深淵，身體好似燃燒般痛苦。[w]
@@ -116,13 +128,15 @@
 嘴裡傳來鐵的味道，痛覺沿著右臉傳來。[w]
 [italic_end]
 
-[char_name,霸凌者]
+[ui_image,char_bully,char/char_bully,0,-10,default,uiImageFadeIn_300]
+
+[char_name,珍妮]
 嚇死我了，差點就玩大了。[w]
 [hide_char]
 
 為...什麼...要..這樣...對....我.....[w]
 
-[char_name,霸凌者]
+[char_name,珍妮]
 喔~妳剛剛在說這個阿。[w]
 [hide_char]
 
@@ -130,7 +144,7 @@
 她蹲下身子，兩隻眼睛直盯著我，彷彿是那天的重演。[w]
 [italic_end]
 
-[char_name,霸凌者]
+[char_name,珍妮]
 跟妳說啦，也沒有為什麼，我就覺得這樣很好玩罷了。[w]
 很多東西都是沒有理由的妳知道嗎，世界上本來就不公平。[w]
 就算妳跟老師講又怎樣，到處都是我的人，找幾個來作假證不就好了。[w]
@@ -138,7 +152,7 @@
 
 妳....都不怕....被別人發現嗎.....[w]
 
-[char_name,霸凌者]
+[char_name,珍妮]
 欸，妳可以多少動點腦嗎，現在這個時間，會來的有誰?[w]
 況且，我還有人在幫我把風呢。[w]
 [hide_char]
@@ -150,14 +164,19 @@
 
 為什麼....為什麼......[w]
 
-[char_name,霸凌者]
+[char_name,珍妮]
 好啦，不鬧妳了，等等要打掃乾淨蛤，不然下次有更刺激的等著妳。[w]
 都有拍到吧，等等傳給我。[w]
 [hide_char]
 
-[char_name,霸凌者]
+[ui_image,char_transfer,char/char_transfer,200,-10,default,uiImageFadeIn_300]
+
+[char_name,安染]
 好啦，回教室再傳給妳，趕快走不然等等老師來就完蛋了。[w]
 [hide_char]
+
+[remove,char_bully,uiImageFadeOut_300]
+[remove,char_transfer,uiImageFadeOut_300]
 
 .[r][wait,500]
 ..[r][wait,500]
