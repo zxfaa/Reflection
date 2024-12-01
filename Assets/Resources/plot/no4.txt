@@ -22,9 +22,8 @@
 [async_hide]
 
 [ui_image,bg_classroom_front,bg/bg_classroom_front,0,0,default,uiImageFadeIn_500]
-[remove,bg_home,uiImageFadeOut_300]
-
 [async_show]
+
 [italic]
 每天下課時，班上的同學總是三兩成群的聚在一起。[w]
 我的存在格格不入，彷彿從來沒有融入過。[w]

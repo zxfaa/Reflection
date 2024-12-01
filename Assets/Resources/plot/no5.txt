@@ -55,10 +55,6 @@ To 姊姊[w]
 
 差不多要上課了，趕緊出門吧。[w]
 
-[italic]
-我將頭抬起，直視前方。[w]
-[italic_end]
-
 畢竟還有人願意相信我呢![w]
 [async_hide]
 
@@ -90,6 +86,7 @@ To 姊姊[w]
 一雙發亮的皮鞋出現在我眼前，將我的筆給踩住。[w]
 [italic_end]
 
+[ui_image,char_bully,char/char_bully,0,-10,default,uiImageFadeIn_300]
 [char_name,珍妮]
 所以我說，他就不應該來跟我比阿，哈哈![w]
 [hide_char]
@@ -148,6 +145,8 @@ To 姊姊[w]
 她頭也不回的走了，看都沒看一眼。[w]
 [italic_end]
 
+[remove,char_bully,uiImageFadeOut_300]
+
 ...算了[w]
 .[r][wait,500]
 ..[r][wait,500]
@@ -173,6 +172,8 @@ To 姊姊[w]
 清脆的開門聲響起，以為是妹妹進到房間的我並不在意。[w]
 [italic_end]
 
+
+[ui_image,char_mom,char/char_mom,0,-10,default,uiImageFadeIn_300]
 [char_name,媽媽]
 妳在幹嘛?[w]
 [hide_char]
@@ -187,6 +188,8 @@ To 姊姊[w]
 妹妹就算了，妳是做姊姊的，妳應該要做為她的榜樣阿，為什麼還要做這些事呢，輕重緩急分不清楚嗎?[w]
 妳自己體會吧![w]
 [hide_char]
+
+[remove,char_mom,uiImageFadeOut_300]
 
 [italic]
 說完後，她重重地關上門，離開了。[w]
@@ -224,6 +227,8 @@ To 姊姊[w]
 不知道考的好不好，讀到早上根本沒用，超想睡覺的。[w]
 至少今天結束後就可以跟她坦白畫圖的事了，以後也可以專注在學業上。[w]
 
+[ui_image,char_teacher,char/char_teacher,0,-20,default,uiImageFadeIn_300]
+
 [char_name,導師]
 同學們，那我要來發還成績了喔，趕快回座位。[w]
 [hide_char]
@@ -248,6 +253,9 @@ To 姊姊[w]
 但這樣說，班上還是有一些人超出我的預料，在第一次就擠進校牌前十，真是不簡單。[w]
 珍妮，這張成績單是妳的，上來拿吧。[w]
 [hide_char]
+[remove,char_teacher,uiImageFadeOut_300]
+
+[ui_image,char_bully,char/char_bully,-10,default,uiImageFadeIn_300]
 
 [italic]
 她走上台，途中還轉頭看了我一眼，像是鄙視我一般。[w]
@@ -265,6 +273,8 @@ To 姊姊[w]
 也沒甚麼拉，就是要分配好時間，保持念書的習慣。[w]
 不要浪費太多時間在其他事上就好。[w]
 [hide_char]
+[remove,char_bully,uiImageFadeOut_300]
+
 
 [italic]
 說出這句話時，可以感覺她是對著我說的。[w]
@@ -285,6 +295,8 @@ To 姊姊[w]
 [ui_image,bg_classroom_front,bg/bg_classroom_front,0,0,default,uiImageFadeIn_500]
 [remove,bg_black,uiImageFadeOut_300]
 
+[ui_image,char_teacher,char/char_teacher,-20,default,uiImageFadeIn_300]
+
 [async_show]
 [italic]
 導師的聲音將我拉回現實，成績單一張接著一張發出去。[w]
@@ -296,6 +308,8 @@ To 姊姊[w]
 [char_name,班導]
 白花里，換妳了，上來拿吧。[w]
 [hide_char]
+[remove,char_teacher,uiImageFadeOut_300]
+
 
 [ui_image,bg_classroom_back,bg/bg_classroom_back,0,0,default,uiImageFadeIn_500]
 [remove,bg_classroom_front,uiImageFadeOut_300]
@@ -304,6 +318,8 @@ To 姊姊[w]
 35，35個，35名嗎，可是全班也只有40人啊?[w]
 我接過班導遞出的成績單，正準備要往回走時。[w]
 [italic_end]
+
+[ui_image,char_teacher,char/char_teacher,-20,default,uiImageFadeIn_300]
 
 [char_name,導師]
 妳啊，回去要好好複習基礎，其他老師都有跟我說，妳的基礎題錯很多欸。[w]
@@ -318,6 +334,8 @@ To 姊姊[w]
 [italic_end]
 
 知道了，謝謝老師。[w]
+
+[remove,char_teacher,uiImageFadeOut_300]
 
 [italic]
 轉身的瞬間，我瞥見她——那張帶著譏諷的笑臉。比剛剛下台時又多了幾分得意。[w]
@@ -365,6 +383,8 @@ To 姊姊[w]
 
 為什麼..為什麼妳會...[w]
 
+[ui_image,char_bully,char/char_bully,-10,default,uiImageFadeIn_300]
+
 [char_name,珍妮]
 沒有阿，我只是剛好看到就是了。[w]
 沒想到真的是妳，跟你說拉，先把課業準備好，有空再去玩畫圖。[w]
@@ -380,6 +400,8 @@ To 姊姊[w]
 唉，雖然很麻煩，但老師要我盡力幫忙一下你們這些成績不好的同學。[w]
 如果有學習上的問題可以來問我，雖然你能問出的問題也不過就只有那種程度罷了。[w]
 [hide_char]
+
+[remove,bg_bully,uiImageFadeOut_300]
 
 [italic]
 她說完，輕描淡寫地撇過頭，像是隨意處理掉一件無關緊要的事，頭也不回的離開了。[w]
@@ -398,10 +420,13 @@ To 姊姊[w]
 ..[r][wait,700]
 ...[w]
 
+[ui_image,char_friend,char/char_friend,-20,default,uiImageFadeIn_300]
+
 [char_name,詩予]
 我知道了...[w]
 等妳想畫的時候再說吧，我會等妳的。[w]
 [hide_char]
+[remove,bg_friend,uiImageFadeOut_300]
 [async_hide]
 
 [ui_image,bg_room,bg/bg_room,0,0,default,uiImageFadeIn_500]
