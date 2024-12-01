@@ -3,6 +3,7 @@
 內部包含遊戲後端全部程式碼。
 - [遊戲連結 可能延期至明年才會放上來](https://drive.google.com/drive/folders/1pqQA5iVIBsnqUzv_hfvtkdm-EyfVB0eD?usp=sharing)
 - [文本連結](https://drive.google.com/drive/folders/1KIn8vdjy_O_eXdiOrXYGL8DxV0vHjmzI?usp=sharing)
+- [宣傳片連結](https://youtu.be/tanEScrz1Kk)
 
 ## 後端包含
 - 道具欄位
